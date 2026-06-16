@@ -1,0 +1,60 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+odo_env/
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Secretos — NUNCA al repositorio
+.env
+.env.*
+secrets/
+
+# Bases de datos locales
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Go binarios compilados
+horus-core/horus-app
+
+# Backups y temporales
+*.backup.*
+nano.*.save
+*.save
+
+# Claude y configuración local
+.claude.json
+.claude.json.backup.*
+.claude/
+.codex/
+.copilot/
+.gemini/
+.aws/
+.azure/
+
+# Diario (privado)
+diario/
+
+# Archivos grandes
+*.tar.gz
+go1.*.linux-amd64.tar.gz
+
+# Historial bash
+.bash_history
