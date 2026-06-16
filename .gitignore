@@ -58,3 +58,17 @@ go1.*.linux-amd64.tar.gz
 
 # Historial bash
 .bash_history
+
+# Aislamiento estructural — /home/enter NUNCA es fuente de despliegue.
+# Cada uno de estos directorios es su propio repositorio con su propio remote.
+# Prohibido volver a trackearlos desde aquí (ver hardening 2026-06-16).
+horus-core/
+hotel-concierge-saas/
+metaskills/
+impacto-digital/
+impacto-ia-digital/
+propia-agent/
+el_ojo_de_dios/
+render.yaml
+Dockerfile
+dockerfile
